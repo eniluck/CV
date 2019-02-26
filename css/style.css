@@ -1,0 +1,83 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+/*Шрифты*/
+@font-face {
+    font-family: 'Myriad Pro Light SemiExtended';
+    src: url('../fonts/MyriadPro-LightSemiExt.eot');
+    src: url('../fonts/MyriadPro-LightSemiExt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-LightSemiExt.woff') format('woff'),
+    url('../fonts/MyriadPro-LightSemiExt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Bold.woff') format('woff'),
+    url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*IMAGE, NAME AND JOB*/
+.image-name-and-job{
+    margin-top: 176px;
+    margin-bottom: 166px;
+}
+
+.container{
+    text-align: center;
+}
+
+.outer-circle{
+  border: 2px solid #3d6cb0;
+  border-radius: 50%;  
+  /*width: 465px;
+  height: 465px;*/
+  width: 460px;
+  height: 460px;
+  /*горизонтальное и вертикальное выравнивание*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*центровка*/
+  margin: 0 auto;
+}
+  
+.inner-circle{
+  background-color: #3d6cb0;
+  border-radius: 50%;  
+  width: 405px;
+  height: 405px;
+}
+
+.about_name{
+    font-family: 'Myriad Pro Light SemiExtended';
+    font-size: 104.49px;
+    line-height: 74px;
+    margin: 0;
+    margin-top: 77px;
+    letter-spacing: 1px;
+}
+
+.about_surname{
+    font-family: 'Myriad Pro Bold';
+    font-size: 123.45px;
+    line-height: 83px;
+    margin: 0;
+    margin-top: 27px;
+}
+
+.about_profession{
+    font-family: 'Myriad Pro Bold';
+    font-size: 49.97px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 46px;
+    letter-spacing: -1px;
+}
