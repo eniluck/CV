@@ -147,7 +147,6 @@ body {
 /* CONTACT */
 .contact{
     width: 826px;
-    max-height: 143px;
 }
 
 .contact table{
@@ -174,3 +173,56 @@ body {
 }
 
 /*SKILLS*/
+
+.skills{
+    width: 826px;
+}
+
+.skills_params{
+    margin:0 auto;
+    margin-top: 46px;
+}
+
+.skills_params h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Myriad Pro Regular';
+    font-size: 51.44px;
+    text-align: center;
+}
+
+
+.skills_params .rate{
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-top: 15px;
+    margin-bottom: 37px;
+    width: 700px;
+}
+
+.skills_params .circle{
+    display: inline-block; 
+    background-color: #006cb4;
+    border-radius: 50%;  
+    width: 35px;
+    height: 35px; 
+    margin-right: 16px;
+    padding: 0;
+}
+
+
+.creative .rate .circle:nth-last-child(-n+3){
+    background-color: #e7e7e7;
+}
+
+.teamwork .rate .circle:nth-last-child(-n+1){
+    background-color: #e7e7e7;
+}
+
+.innovate .rate .circle:nth-last-child(-n+6){
+    background-color: #e7e7e7;
+}
+
+.communication .rate .circle:nth-last-child(-n+1){
+    background-color: #e7e7e7;
+}
