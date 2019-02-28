@@ -24,6 +24,17 @@ body {
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*IMAGE, NAME AND JOB*/
 .image-name-and-job{
     margin-top: 176px;
@@ -80,4 +91,59 @@ body {
     margin: 0;
     margin-top: 46px;
     letter-spacing: -1px;
+}
+
+/* Profile */
+
+.profile{
+    width: 826px;
+    max-height: 143px;
+}
+
+.profile_header {
+    display: flex;
+    align-items: center;
+    /*
+    
+  justify-content: center;
+    */
+    
+}
+
+.profile_header img {
+    height: 143px;
+}
+
+.profile_header h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Myriad Pro Bold';
+    font-size: 82.3px;
+    color: #006cb4;
+    /*color: red;*/
+    margin-left: 19px;
+    margin-top: -2px;
+}
+
+.line{
+    margin-left: 15px;
+    height: 10px;
+    background-color: #006cb4;
+    /*background-color: red;*/
+    width: 100%;
+    margin-top: -6px;
+}
+
+.profile p{
+    margin-top: 24px;
+    font-family: 'Myriad Pro Regular';
+    font-size: 30.86px;
+}
+
+.profile p span{
+    font-family: 'Myriad Pro Bold';
+    font-size: 30.86px;
+    letter-spacing: 0px;
+    line-height: 20px;
+
 }
