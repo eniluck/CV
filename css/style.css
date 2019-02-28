@@ -226,3 +226,58 @@ body {
 .communication .rate .circle:nth-last-child(-n+1){
     background-color: #e7e7e7;
 }
+
+/* EDUCATION */
+.education{
+    width: 1264px;
+}
+
+.master-degree{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.master-degree_item{
+    margin-left: 106px;
+    position: relative;
+    margin-top:64px;
+}
+
+.master-degree_item_head{
+    display: flex;
+    font-size: 51.44px;
+}
+
+.master-degree_item_head .name,
+.master-degree_item_head .dates{
+    padding: 0px;
+    margin: 0px;
+}
+
+.master-degree_item_head .name{
+    font-family: 'Myriad Pro Bold';
+}
+
+.master-degree_item .name::before{
+    content:'';
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;  
+    background-color: #000000;
+    position: absolute;
+    left:-80px;
+    top:15px;
+}
+
+.master-degree_item_head .dates{
+    font-family: 'Myriad Pro Regular';
+    margin-left: 30px;
+}
+
+
+
+/* EXPERIENCE */
+/* SOFTWARE */
