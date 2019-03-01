@@ -236,28 +236,32 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-top:64px;    
 }
 
 
 .master-degree_item{
-    margin-left: 106px;
+    margin-left: 105px;
     position: relative;
-    margin-top:64px;
 }
 
 .master-degree_item_head{
     display: flex;
-    font-size: 51.44px;
 }
 
 .master-degree_item_head .name,
 .master-degree_item_head .dates{
     padding: 0px;
     margin: 0px;
+    font-size: 51.44px;
+
 }
 
 .master-degree_item_head .name{
-    font-family: 'Myriad Pro Bold';
+    font-family: 'Myriad Pro Bold';        
+    color: #006cb4;
+    font-size: 51.44px;
+    line-height: 35px;
 }
 
 .master-degree_item .name::before{
@@ -268,15 +272,29 @@ body {
     border-radius: 50%;  
     background-color: #000000;
     position: absolute;
-    left:-80px;
-    top:15px;
+    left:-81px;
 }
 
 .master-degree_item_head .dates{
-    font-family: 'Myriad Pro Regular';
     margin-left: 30px;
+    font-family: 'Myriad Pro Regular';      
+    line-height: 35px;      
 }
 
+.master-degree_item .university{
+    font-family: 'Myriad Pro Regular';    
+    font-size: 51.44px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.master-degree_item p{
+    font-size: 30.86px;
+    font-family: 'Myriad Pro Regular';
+    margin-top: 10px;
+    margin-bottom: 39px;
+}
 
 
 /* EXPERIENCE */
